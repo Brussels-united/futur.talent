@@ -1,5 +1,4 @@
-
-  :root{
+:root{
     --noir: #0a0a0b;
     --anthracite: #17171a;
     --creme: #f6f5f1;
@@ -166,12 +165,12 @@
   .partner-text{ max-width:600px; }
   .partner .eyebrow{ font-size:13px; font-weight:600; color:var(--or-fonce); }
   .partner h3{ font-family:'Anton', sans-serif; font-size:clamp(1.5rem,2.6vw,2.1rem); margin-top:8px; }
-  .partner p{ margin-top:10px; font-size:15.5px; color:#54545a; max-width:520px; }
+  .partner p{ margin-top:10px; font-size:15.5px; color:#54545a; max-width:520px; text-align:justify; }
   .partner-badge{
     display:flex; align-items:center; gap:16px; padding:14px 26px;
     border:1px solid #dcdace; background:var(--blanc); flex:none;
   }
-  .partner-badge img{ height:56px; width:auto; }
+  .partner-badge img{ height:110px; width:auto; }
   .partner-badge span{ font-family:'Anton', sans-serif; font-size:17px; letter-spacing:.01em; }
   @media(max-width:640px){ .partner .wrap{ flex-direction:column; align-items:flex-start; } }
 
